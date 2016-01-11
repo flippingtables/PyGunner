@@ -1,0 +1,6 @@
+{
+  "api_key"   : "YOUR API KEY HERE",
+  "sandbox"   : "YOUR SANDBOX URL HERE",
+  "recipient" : "YOUR EMAIL HERE",
+  "sender"    : "PyGunner@YourDomain.com"
+}
