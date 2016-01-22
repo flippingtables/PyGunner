@@ -10,7 +10,8 @@ class PyGunner(object):
 
     def readConfig(self):
         try:
-            with open('config.json', 'r') as data_file:
+            currentPath = os.path.dirname(os.path.realpath(__file__))
+            with open(currentPath+'/config.json', 'r') as data_file:
                 data = json.load(data_file)
                 return data
         except EnvironmentError:
