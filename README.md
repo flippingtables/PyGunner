@@ -14,6 +14,7 @@ This tool requires python requests module.
 To use the tool, add your details to the *config.json* file.
 
 `cd PyGunner`
+
 `sudo /bin/sh install.sh`
 
 And simply run the script:
