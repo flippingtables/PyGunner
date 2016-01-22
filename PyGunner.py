@@ -5,6 +5,7 @@ import json
 import requests
 import argparse
 import sys
+import os
 
 class PyGunner(object):
 
