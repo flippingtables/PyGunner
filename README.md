@@ -17,5 +17,5 @@ To use the tool, add your details to the *config.json* file.
 
 `sudo /bin/sh install.sh`
 
-And simply run the script:
-`./PyGunner -s "Email Subject" -m "Email Message"`
+And simply run the script:  
+`pygunner -s "Email Subject" -m "Email Message"`
