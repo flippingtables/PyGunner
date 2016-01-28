@@ -11,7 +11,7 @@ This tool requires python requests module.
 
 # Usage
 
-To use the tool, add your details to the *config.json* file.
+To use the tool, add your details to the `config.json` file.
 
 `cd PyGunner`
 
