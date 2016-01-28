@@ -19,3 +19,15 @@ To use the tool, add your details to the *config.json* file.
 
 And simply run the script:  
 `pygunner -s "Email Subject" -m "Email Message"`
+
+# Example usecase
+Add this to your server`/etc/ssh/sshrc` file
+
+```
+#!/bin/bash
+IP=$(echo ${SSH_CONNECTION:-Unknown}|/usr/bin/cut -d " " -f 1)
+MSG="User \"${USER:-[Unknown]}\" log in from ${IP:-[Unknown IP]}"
+pygunner -s "SSH login to AERO" -m "$MSG"
+```
+
+Whenever someone logs in via SSH you will receive a mail.
