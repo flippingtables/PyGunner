@@ -27,7 +27,7 @@ Add this to your server`/etc/ssh/sshrc` file
 #!/bin/bash
 IP=$(echo ${SSH_CONNECTION:-Unknown}|/usr/bin/cut -d " " -f 1)
 MSG="User \"${USER:-[Unknown]}\" log in from ${IP:-[Unknown IP]}"
-pygunner -s "SSH login to AERO" -m "$MSG"
+pygunner -s "SSH login to TheServer" -m "$MSG"
 ```
 
 Whenever someone logs in via SSH you will receive a mail.
